@@ -187,7 +187,11 @@ body {
     gap: 8px;
     animation: fadeUp 1.2s 0.8s cubic-bezier(0.16,1,0.3,1) both;
 }
-
+@media screen and (max-width:640px){
+   .scroll-hint {
+    left:42.5%;
+   }
+}
 .scroll-hint span {
     font-size: 0.65rem;
     letter-spacing: 0.25em;
